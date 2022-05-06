@@ -75,3 +75,7 @@ h1, h3 {
     width: 200px;
     height: 2px;
 }
+
+img {
+    width: 100%;
+}
