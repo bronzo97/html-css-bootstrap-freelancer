@@ -1,8 +1,16 @@
 :root {
-    --color-primary: #53BC9D;
-    --color-secondary: #2C4051;
-    --color-tertiary: #3A546D;
-}
+    --bs-primary: #1abc9c;
+    --bs-primary-rgb: 26, 188, 156;
+
+    --my-primary-dark: #199f84;
+    --my-primary-dark-rgb: 25, 159, 132;
+
+    --bs-secondary: #3a546d;
+    --bs-secondary-rgb: 58, 84, 109;
+
+    --bs-dark: #2c3e50;
+    --bs-dark-rgb: 44, 62, 80;
+    }
 
 .container {
     max-width: 1100px;
@@ -12,7 +20,6 @@
 /* ----- NAV ----- */
 
 nav {
-    background-color: var(--color-secondary);
     position: fixed;
     top: 0;
     right: 0;
@@ -45,26 +52,35 @@ nav {
 
 /* ----- MAIN ----- */
 
-
 main {
     margin-top: 68px;
 }
+
 .jumbo {
     background-color: var(--color-primary);
 }
 
-.profile-picture {
-    width: 200px;
+.container {
+    text-align: center;
 }
 
-h1, h3 {
+.profile-picture {
+    width: 200px;
+    margin: 0 auto;
+}
+
+h1,
+h3 {
     color: #fff;
     text-transform: uppercase;
 }
 
+
+
 .star-line {
     display: flex;
-    flex-direction: row;   
+    flex-direction: row; 
+    justify-content: center;  
 }
 
 .star {
@@ -78,4 +94,15 @@ h1, h3 {
 
 img {
     width: 100%;
+    border-radius: 10px;
+}
+
+.form-control {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+
+.my-btn {
+    background-color: var(--bs-primary);
 }

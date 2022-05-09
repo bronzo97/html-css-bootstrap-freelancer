@@ -13,7 +13,7 @@
 
     <!-- ----- NAV ----- -->
 
-    <nav>
+    <nav class="bg-dark">
         <div class="container">
             <div class="nav-menu text-uppercase">
                 <div class="logo">Start Bootstrap</div>               
@@ -32,48 +32,138 @@
 
     <!-- ----- JUMBO ----- -->
 
-        <div class="section">
-            <div class="col jumbo">
-                <div class="container">
-                    <div class="profile-picture">
-                        <img src="img/avatar.svg" alt="Profile Picture">
+        <section class="bg-primary">
+            <div class="row">
+                <div class="col jumbo">
+                    <div class="container">
+                        <div class="profile-picture">
+                            <img src="img/avatar.svg" alt="Profile Picture">
+                        </div>
+                        <h1>Start Bootstrap</h1>
+                        <div class="star-line">
+                            <div class="line"></div>
+                            <div class="star"><i class="fa-solid fa-star"></i></div>
+                            <div class="line"></div>
+                        </div>
+                        <h3>Graphic artist - web designer - illustrator</h3>
                     </div>
-                    <h1>Start Bootstrap</h1>
-                    <div class="star-line">
-                        <div class="line"></div>
-                        <div class="star"><i class="fa-solid fa-star"></i></div>
-                        <div class="line"></div>
-                    </div>
-                    <h3>Graphic artist - web designer - illustrator</h3>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- ----- PORTFOLIO ----- -->
-        <div class="section">
+        <section>
             <div class="container">
-                <h2>Portfolio</h2>
-                <div class="line"></div>
-                <div class="star"><i class="fa-solid fa-star"></i></div>
-                <div class="line"></div>
+                <h2 class="">Portfolio</h2>
+                <div class="star-line">
+                    <div class="line"></div>
+                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                    <div class="line"></div>
+                </div>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
-                    <div class="col"><img src="img/cabin.png" alt="Cabin img"></div>
-                    <div class="col"><img src="img/cabin.png" alt="Cabin img"></div>
-                    <div class="col"><img src="img/cabin.png" alt="Cabin img"></div>
-                    <div class="col"><img src="img/cabin.png" alt="Cabin img"></div>
-                    <div class="col"><img src="img/cabin.png" alt="Cabin img"></div>
-                    <div class="col"><img src="img/cabin.png" alt="Cabin img"></div>
+                    <div class="col py-2"><img src="img/cabin.png" alt="Cabin img"></div>
+                    <div class="col py-2"><img src="img/cabin.png" alt="Cabin img"></div>
+                    <div class="col py-2"><img src="img/cabin.png" alt="Cabin img"></div>
+                    <div class="col py-2"><img src="img/cabin.png" alt="Cabin img"></div>
+                    <div class="col py-2"><img src="img/cabin.png" alt="Cabin img"></div>
+                    <div class="col py-2"><img src="img/cabin.png" alt="Cabin img"></div>
                 </div>
             </div>
-        </div>
+        </section>
         
         <!-- ----- ABOUT ----- -->
 
+        <section class="bg-primary">
+            <div class="container">
+                <h2>About</h2>
+            
+                <div class="star-line">
+                    <div class="line"></div>
+                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                    <div class="line"></div>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2">
+                    <div class="col">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In doloremque, minus, ad facilis modi fugiat vero perferendis quis praesentium quibusdam, fuga unde voluptatibus nesciunt exercitationem neque illo necessitatibus dicta repellat?</div>
+                    <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis necessitatibus eaque iure eos aspernatur, numquam, voluptas dolor obcaecati minus voluptate praesentium perferendis repellendus ipsa ducimus a nisi nostrum suscipit dolore?</div>
+                </div>
+                <div class="btn"><i class="fa-solid fa-download"></i> Download</div>
+            </div>
+        </section>
+
         <!-- ----- CONTACT ME ----- -->
 
-        <!-- ----- FOOTER 1 ----- -->
+        <section>
+            <div class="container">
+                <h2>Contact me</h2>
+                <div class="star-line">
+                    <div class="line"></div>
+                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                    <div class="line"></div>
+                </div>
 
-        <!-- ----- FOOTER 2 ----- -->
+                <form>
+                
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Nome">
+                        <label for="floatingInput">Nome</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email Address</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="phone-number">
+                        <label for="floatingInput">Phone Number</label>
+                    </div>
+
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Message</label>
+                    </div>
+
+                    <div class="btn my-btn mt-3">Send</div>
+                </form>
+            </div>        
+            
+
+        </section>
+
+        <!-- ----- FOOTER ----- -->
+
+        <footer>
+            <section class="bg-secondary">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h5>LOCATION</h5>
+                            <p>2215 John Daniel Drive Clark, MO 54243</p>
+                            
+                        </div>
+                        <div class="col">
+                            <h5>AROUND THE WEB</h5>
+                            <div class="btn rounded-circle"><i class="fa-brands fa-facebook-f"></i></div>
+                            <div class="btn rounded-circle"><i class="fa-brands fa-google-plus-g"></i></div>
+                            <div class="btn rounded-circle"><i class="fa-brands fa-twitter"></i></div>
+                            <div class="btn rounded-circle"><i class="fa-brands fa-linkedin-in"></i></div>
+                        </div>
+                        <div class="col">
+                            <h5>ABOUT FREELANCER</h5>
+                            <p>Freelance is  free to use, open source Bootstrap them created by <a href="#">Start Bootstrap</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-dark">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019</div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+
 
 
 
