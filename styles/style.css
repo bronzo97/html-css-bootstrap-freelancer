@@ -80,7 +80,9 @@ h3 {
 .star-line {
     display: flex;
     flex-direction: row; 
-    justify-content: center;  
+    justify-content: center; 
+    color: #fff;
+    align-items: center;
 }
 
 .star {
@@ -90,6 +92,7 @@ h3 {
 .line {
     width: 200px;
     height: 2px;
+    background-color: #fff;
 }
 
 img {
@@ -105,4 +108,9 @@ img {
 
 .my-btn {
     background-color: var(--bs-primary);
+}
+
+h5,
+p {
+    color: #fff;
 }
